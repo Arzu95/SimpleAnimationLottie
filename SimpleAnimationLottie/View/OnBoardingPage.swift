@@ -21,9 +21,15 @@ struct OnBoardingPage: View {
                 .font(.custom(customFont, size: 55))
                 .fontWeight(.bold)
                 .foregroundColor(.white)
-            Image("OnBoard")
+//            Image("OnBoard")
+//                .resizable()
+//                .aspectRatio(contentMode: .fit)
+            
+            KFImage(URL(string: "https://i.pinimg.com/564x/0d/d0/a9/0dd0a987c1bffc799958b813b3367ab8.jpg")!)
                 .resizable()
-                .aspectRatio(contentMode: .fit)
+                .scaledToFit()
+            
+            
                         
             
             Button{
@@ -52,14 +58,13 @@ struct OnBoardingPage: View {
         .background(
             Color("Purple")
         )
-        .overlay(
-            Group{
-                if showLoginPage{
-                    LoginPage()
-                        .transition(.move(edge: .bottom))
-                }
+        .overlay {
+            if showLoginPage{
+                LoginPage()
+                    .transition(.move(edge: .bottom))
             }
-        )
+        }
+        
     }
 }
 

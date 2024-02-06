@@ -16,8 +16,7 @@ struct LoginPage: View {
         NavigationView{
             VStack{
                 Text("Welcome\nback")
-                    .fontWeight(.bold)
-                    .font(.system(size: 55))
+                    .font(.custom(customFont, size: 55).bold())
                     .foregroundColor(.white)
                     .frame(maxWidth: .infinity, alignment: .leading)
                     .frame(height: getRect().height / 3.5)
@@ -56,7 +55,7 @@ struct LoginPage: View {
                 ScrollView(.vertical, showsIndicators: false){
                     VStack(spacing: 15){
                         Text(loginData.registerUser ? "Register" : "Login")
-                            .fontWeight(.medium)
+                            .font(.custom(customFont, size: 22).bold())
                             .frame(maxWidth: .infinity, alignment: .leading)
                         
                         CustomTextField(icon: "envelope", title: "Email", hint: "muhammadarzu3432@gmail.com", value: $loginData.email, showPassword:
@@ -70,29 +69,19 @@ struct LoginPage: View {
                             CustomTextField(icon: "envelope", title: "Re-Enter Password", hint: "123456", value: $loginData.re_Enter_Password, showPassword: $loginData.showReEnterPassword)
                                 .padding(.top, 10)
                         }
-                        NavigationLink(destination: LottieView(name: "Animation - 1707124194011")) {
-                            Button{
-                                if loginData.registerUser{
-                                    loginData.Register()
-                                }
-                                else{
-                                    loginData.Login()
-                                }
-                                
-                            } label: {
-                                Text("Login")
-                                    .fontWeight(.medium)
-                                    .padding(.vertical,20)
-                                    .frame(maxWidth: .infinity)
-                                    .foregroundColor(.white)
-                                    .background(Color("Purple"))
-                                    .cornerRadius(15)
-                                    .shadow(color: Color.black.opacity(0.07), radius: 5, x: 5, y: 5)
-                            }
-                            .padding(.top,25)
-                            .padding(.horizontal)
-                        }
                         
+                        NavigationLink(destination: LottieView(name: "Animation - 1707235289824")) {
+                            Text("Login")
+                                .font(.custom(customFont, size: 17).bold())
+                                .padding(.vertical,20)
+                                .frame(maxWidth: .infinity)
+                                .foregroundColor(.white)
+                                .background(Color("Purple"))
+                                .cornerRadius(15)
+                                .shadow(color: Color.black.opacity(0.07), radius: 5, x: 5, y: 5)
+                        }
+                        .padding(.top,20)
+                        .padding(.horizontal)
                         
                         
                         Button{
@@ -101,6 +90,7 @@ struct LoginPage: View {
                             }
                         } label: {
                             Text(loginData.registerUser ? "Back To Login" : "Create Account")
+                                .font(.custom(customFont, size: 14))
                                 .fontWeight(.semibold)
                                 .foregroundColor(Color("Purple"))
                         }
@@ -125,16 +115,18 @@ struct LoginPage: View {
                 loginData.re_Enter_Password = ""
                 loginData.showPassword = false
                 loginData.showReEnterPassword = false
+            }
         }
         
-        }
     }
+    
+    
     @ViewBuilder
     func CustomTextField(icon: String, title: String, hint: String, value: Binding<String>,showPassword:Binding<Bool>)->some View{
         VStack(alignment: .leading, spacing: 12){
             Label{
                 Text(title)
-                    .fontWeight(.medium)
+                    .font(.custom(customFont, size: 14))
             } icon: {
                 Image(systemName: icon)
             }
@@ -161,7 +153,7 @@ struct LoginPage: View {
                         showPassword.wrappedValue.toggle()
                     }, label: {
                         Text(showPassword.wrappedValue ? "Hide" : "Show")
-                            .fontWeight(.medium)
+                            .font(.custom(customFont, size: 13).bold())
                             .foregroundColor(Color("Purple"))
                     })
                     .offset(y: 8)
