@@ -7,18 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A819544F2B7130CE003C0186 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = A819544E2B7130CE003C0186 /* Kingfisher */; };
+		A81954522B71312C003C0186 /* KingFisherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A81954512B71312C003C0186 /* KingFisherView.swift */; };
+		A8A1C6F32B7274A700D5D96A /* LoginPageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A1C6F22B7274A700D5D96A /* LoginPageModel.swift */; };
+		A8A1C6F62B7274F900D5D96A /* OnBoardingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A1C6F52B7274F900D5D96A /* OnBoardingPage.swift */; };
+		A8A1C6F82B7275C800D5D96A /* LoginPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A1C6F72B7275C800D5D96A /* LoginPage.swift */; };
+		A8A1C6FD2B72762D00D5D96A /* raleway.semibold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A8A1C6FA2B72762D00D5D96A /* raleway.semibold.ttf */; };
+		A8A1C6FE2B72762D00D5D96A /* raleway.bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A8A1C6FB2B72762D00D5D96A /* raleway.bold.ttf */; };
+		A8A1C6FF2B72762D00D5D96A /* raleway.regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A8A1C6FC2B72762D00D5D96A /* raleway.regular.ttf */; };
+		A8A1C7012B72767200D5D96A /* CustomCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A1C7002B72767200D5D96A /* CustomCorners.swift */; };
+		A8A1C7072B728F7400D5D96A /* Animation - 1707235289824.json in Resources */ = {isa = PBXBuildFile; fileRef = A8A1C7062B728F7400D5D96A /* Animation - 1707235289824.json */; };
 		A8A94B372B70AAFF00DD4E01 /* SimpleAnimationLottieApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A94B362B70AAFF00DD4E01 /* SimpleAnimationLottieApp.swift */; };
 		A8A94B392B70AAFF00DD4E01 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A94B382B70AAFF00DD4E01 /* ContentView.swift */; };
 		A8A94B3B2B70AB0300DD4E01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8A94B3A2B70AB0300DD4E01 /* Assets.xcassets */; };
 		A8A94B3E2B70AB0300DD4E01 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8A94B3D2B70AB0300DD4E01 /* Preview Assets.xcassets */; };
+		A8A94B462B70ACD700DD4E01 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = A8A94B452B70ACD700DD4E01 /* Lottie */; };
+		A8A94B492B70AF3800DD4E01 /* Animation-1707103135893.json in Resources */ = {isa = PBXBuildFile; fileRef = A8A94B482B70AF3800DD4E01 /* Animation-1707103135893.json */; };
+		A8A94B4B2B70AF4B00DD4E01 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A94B4A2B70AF4B00DD4E01 /* LottieView.swift */; };
+		A8A94B4D2B70BCC600DD4E01 /* AnotherViewLottie.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8A94B4C2B70BCC600DD4E01 /* AnotherViewLottie.swift */; };
+		A8A94B4F2B70DD8700DD4E01 /* Animation - 1707124194011.json in Resources */ = {isa = PBXBuildFile; fileRef = A8A94B4E2B70DD8700DD4E01 /* Animation - 1707124194011.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A81954512B71312C003C0186 /* KingFisherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KingFisherView.swift; sourceTree = "<group>"; };
+		A8A1C6F22B7274A700D5D96A /* LoginPageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageModel.swift; sourceTree = "<group>"; };
+		A8A1C6F52B7274F900D5D96A /* OnBoardingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingPage.swift; sourceTree = "<group>"; };
+		A8A1C6F72B7275C800D5D96A /* LoginPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPage.swift; sourceTree = "<group>"; };
+		A8A1C6FA2B72762D00D5D96A /* raleway.semibold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = raleway.semibold.ttf; sourceTree = "<group>"; };
+		A8A1C6FB2B72762D00D5D96A /* raleway.bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = raleway.bold.ttf; sourceTree = "<group>"; };
+		A8A1C6FC2B72762D00D5D96A /* raleway.regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = raleway.regular.ttf; sourceTree = "<group>"; };
+		A8A1C7002B72767200D5D96A /* CustomCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCorners.swift; sourceTree = "<group>"; };
+		A8A1C7062B728F7400D5D96A /* Animation - 1707235289824.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Animation - 1707235289824.json"; sourceTree = "<group>"; };
 		A8A94B332B70AAFF00DD4E01 /* SimpleAnimationLottie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleAnimationLottie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8A94B362B70AAFF00DD4E01 /* SimpleAnimationLottieApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleAnimationLottieApp.swift; sourceTree = "<group>"; };
 		A8A94B382B70AAFF00DD4E01 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A8A94B3A2B70AB0300DD4E01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A8A94B3D2B70AB0300DD4E01 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A8A94B482B70AF3800DD4E01 /* Animation-1707103135893.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Animation-1707103135893.json"; sourceTree = "<group>"; };
+		A8A94B4A2B70AF4B00DD4E01 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		A8A94B4C2B70BCC600DD4E01 /* AnotherViewLottie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnotherViewLottie.swift; sourceTree = "<group>"; };
+		A8A94B4E2B70DD8700DD4E01 /* Animation - 1707124194011.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "Animation - 1707124194011.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,12 +54,50 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A819544F2B7130CE003C0186 /* Kingfisher in Frameworks */,
+				A8A94B462B70ACD700DD4E01 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A81954502B713115003C0186 /* KingFisher */ = {
+			isa = PBXGroup;
+			children = (
+				A81954512B71312C003C0186 /* KingFisherView.swift */,
+			);
+			path = KingFisher;
+			sourceTree = "<group>";
+		};
+		A8A1C6F12B72738B00D5D96A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A8A1C6F22B7274A700D5D96A /* LoginPageModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A8A1C6F42B7274D100D5D96A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A8A1C6F52B7274F900D5D96A /* OnBoardingPage.swift */,
+				A8A1C6F72B7275C800D5D96A /* LoginPage.swift */,
+				A8A1C7002B72767200D5D96A /* CustomCorners.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A8A1C6F92B72761500D5D96A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A8A1C6FB2B72762D00D5D96A /* raleway.bold.ttf */,
+				A8A1C6FC2B72762D00D5D96A /* raleway.regular.ttf */,
+				A8A1C6FA2B72762D00D5D96A /* raleway.semibold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		A8A94B2A2B70AAFF00DD4E01 = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +117,11 @@
 		A8A94B352B70AAFF00DD4E01 /* SimpleAnimationLottie */ = {
 			isa = PBXGroup;
 			children = (
+				A8A1C6F92B72761500D5D96A /* Fonts */,
+				A8A1C6F42B7274D100D5D96A /* View */,
+				A8A1C6F12B72738B00D5D96A /* ViewModel */,
+				A81954502B713115003C0186 /* KingFisher */,
+				A8A94B472B70AF2A00DD4E01 /* Lottie */,
 				A8A94B362B70AAFF00DD4E01 /* SimpleAnimationLottieApp.swift */,
 				A8A94B382B70AAFF00DD4E01 /* ContentView.swift */,
 				A8A94B3A2B70AB0300DD4E01 /* Assets.xcassets */,
@@ -65,6 +136,18 @@
 				A8A94B3D2B70AB0300DD4E01 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A8A94B472B70AF2A00DD4E01 /* Lottie */ = {
+			isa = PBXGroup;
+			children = (
+				A8A1C7062B728F7400D5D96A /* Animation - 1707235289824.json */,
+				A8A94B482B70AF3800DD4E01 /* Animation-1707103135893.json */,
+				A8A94B4E2B70DD8700DD4E01 /* Animation - 1707124194011.json */,
+				A8A94B4A2B70AF4B00DD4E01 /* LottieView.swift */,
+				A8A94B4C2B70BCC600DD4E01 /* AnotherViewLottie.swift */,
+			);
+			path = Lottie;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +166,10 @@
 			dependencies = (
 			);
 			name = SimpleAnimationLottie;
+			packageProductDependencies = (
+				A8A94B452B70ACD700DD4E01 /* Lottie */,
+				A819544E2B7130CE003C0186 /* Kingfisher */,
+			);
 			productName = SimpleAnimationLottie;
 			productReference = A8A94B332B70AAFF00DD4E01 /* SimpleAnimationLottie.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +198,10 @@
 				Base,
 			);
 			mainGroup = A8A94B2A2B70AAFF00DD4E01;
+			packageReferences = (
+				A8A94B442B70ACD700DD4E01 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				A819544D2B7130CE003C0186 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = A8A94B342B70AAFF00DD4E01 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,8 +216,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8A1C6FE2B72762D00D5D96A /* raleway.bold.ttf in Resources */,
 				A8A94B3E2B70AB0300DD4E01 /* Preview Assets.xcassets in Resources */,
+				A8A1C6FD2B72762D00D5D96A /* raleway.semibold.ttf in Resources */,
+				A8A94B4F2B70DD8700DD4E01 /* Animation - 1707124194011.json in Resources */,
 				A8A94B3B2B70AB0300DD4E01 /* Assets.xcassets in Resources */,
+				A8A1C7072B728F7400D5D96A /* Animation - 1707235289824.json in Resources */,
+				A8A1C6FF2B72762D00D5D96A /* raleway.regular.ttf in Resources */,
+				A8A94B492B70AF3800DD4E01 /* Animation-1707103135893.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +234,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8A1C6F82B7275C800D5D96A /* LoginPage.swift in Sources */,
+				A8A1C7012B72767200D5D96A /* CustomCorners.swift in Sources */,
 				A8A94B392B70AAFF00DD4E01 /* ContentView.swift in Sources */,
+				A81954522B71312C003C0186 /* KingFisherView.swift in Sources */,
+				A8A1C6F32B7274A700D5D96A /* LoginPageModel.swift in Sources */,
 				A8A94B372B70AAFF00DD4E01 /* SimpleAnimationLottieApp.swift in Sources */,
+				A8A94B4B2B70AF4B00DD4E01 /* LottieView.swift in Sources */,
+				A8A94B4D2B70BCC600DD4E01 /* AnotherViewLottie.swift in Sources */,
+				A8A1C6F62B7274F900D5D96A /* OnBoardingPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +443,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A819544D2B7130CE003C0186 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		A8A94B442B70ACD700DD4E01 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A819544E2B7130CE003C0186 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A819544D2B7130CE003C0186 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		A8A94B452B70ACD700DD4E01 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A8A94B442B70ACD700DD4E01 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A8A94B2B2B70AAFF00DD4E01 /* Project object */;
 }

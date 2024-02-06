@@ -11,7 +11,9 @@ import SwiftUI
 struct SimpleAnimationLottieApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            
+            OnBoardingPage()
+            LottieView(name: "anjay-slebew", loopMode: .loop)
         }
     }
 }
